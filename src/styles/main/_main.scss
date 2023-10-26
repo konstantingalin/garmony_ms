@@ -82,7 +82,6 @@
     .main_text {
       margin: 0 auto;
       margin-bottom: 50px;
-      max-width: 300px;
     }
 
     h3 {
@@ -120,6 +119,10 @@
 
     @media (max-width: 500px) {
       padding-top: 100px;
+
+      .main_text {
+        max-width: 300px;
+      }
 
       .section__content {
         padding: 0 8px;
