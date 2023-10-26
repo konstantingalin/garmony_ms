@@ -1,0 +1,152 @@
+.wrapper-index {
+  background: #FFF;
+
+  ._1 {
+    @include adaptive(padding-top, 50, 60);
+
+    @media (max-width: 767px) {
+      //padding-bottom: 0;
+    }
+  }
+  
+  ._2 {
+    padding-top: 50px;
+
+    .section__content {
+      padding: 0;
+    }
+  }
+
+  ._3 {
+    padding-top: 50px;
+
+    .main_text {
+      max-width: 600px;
+      margin-bottom: 13px;
+    }
+
+    .title_text {
+      max-width: 600px;
+    }
+
+    .button_box {
+      display: flex;
+      justify-content: center;
+
+      .button {
+        margin-top: 30px;
+        color: #000;
+        text-align: center;
+        font-family: 'Proxima Nova';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        padding-bottom: 5px;
+        border-bottom: 1px #000 solid;
+      }
+    }
+  }
+
+  ._4 {
+    padding-top: 100px;
+
+    .main_text {
+      max-width: 600px;
+      margin-bottom: 13px;
+    }
+
+    .title_text {
+      max-width: 600px;
+    }
+  }
+
+  ._5, ._6, ._7 {
+    @media (max-width: 800px) {
+      .section__content {
+        padding: 0;
+      }
+    }
+  }
+
+  ._6 {
+    @media (max-width: 800px) {
+      padding-top: 50px;
+    }
+  }
+
+  ._8 {
+    padding-top: 50px;
+
+    .main_text {
+      margin: 0 auto;
+      margin-bottom: 50px;
+      max-width: 300px;
+    }
+
+    h3 {
+      color: #000;
+      text-align: center;
+      font-family: 'Proxima Nova';
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.7px;
+      margin-top: 18px;
+    }
+
+    .swiper_box {
+      position: relative;
+      padding: 0 50px !important;
+      max-width: 1380px;
+      margin: 0 auto;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .swiper-scrollbar {
+      display: none;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+      &::after {
+        display: none;
+      }
+    }
+
+    @media (max-width: 500px) {
+      padding-top: 100px;
+
+      .section__content {
+        padding: 0 8px;
+      }
+
+      .swiper_box {
+        padding: 0 27px !important;
+      }
+
+      .swiper-button-prev, .swiper-button-next {
+        width: 25px;
+        height: 25px;
+      }
+
+      .swiper-button-prev {
+        left: 0;
+      }
+
+      .swiper-button-next {
+        right: 0;
+      }
+    }
+  }
+
+  ._9 {
+    margin-top: 150px;
+    min-height: 200px;
+    background-color: #000000;
+  }
+}

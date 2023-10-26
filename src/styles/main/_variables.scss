@@ -1,0 +1,17 @@
+:root {
+  --clr-white: #ffffff;
+  --clr-black: #1E1B1B;
+  --clr-gray-lt: #f3f5f9;
+  --clr-gray: #596060;
+  --clr-accent: #FF6C18;
+
+  --font-main: "Proxima Nova", Arial, Helvetica, sans-serif;
+
+  --fz120: clamp(48px, 6.25vw, 120px);
+  --fz54: clamp(24px, 2.81vw, 54px);
+  --fz36: clamp(18px, 1.875vw, 36px);
+  --fz26: clamp(16px, 1.35vw, 26px);
+  --fz22: clamp(16px, 1.14vw, 22px);
+  --fz18: clamp(15px, 0.937vw, 18px);
+  --btn18: clamp(14px, 1.46vw, 18px);
+}
